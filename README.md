@@ -3,5 +3,6 @@ Gulp project setup
 
 ## Installation
 ```console
+npm install -g gulp
 npm install
 ```
