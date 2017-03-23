@@ -6,3 +6,7 @@ Gulp project setup
 npm install -g gulp
 npm install
 ```
+## Build
+```console
+gulp
+```

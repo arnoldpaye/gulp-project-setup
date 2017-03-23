@@ -35,3 +35,11 @@ gulp.task('build-js', function() {
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('build/js'));
 });
+
+// Watch task
+gulp.task('watch', function() {
+    gulp.watch('src/js/**/*.js', ['jshint']);
+});
+
+// Default task
+gulp.task('default', ['build-js']);
